@@ -1,0 +1,19 @@
+Project 5
+
+1. How you have incorporated the lab 7 code into project 4. 
+Specifically, how you have generated the input to lab 7 code 
+and how you used the output from lab 7 code to generate movie recommendations.
+
+I used part of lab 7's code to find the similar users of the main user. 
+For the input with part of lab 7's code, I put in an rating 2d array of 
+all ratings from all users. Then, it will return to me the index of the similar 
+users of main user. Then, with the output, I used it to recommend the main user 
+movies that his/her similar users have watched and have rated it with good ratings
+and main user haven't watched. 
+
+2. How your program works. 
+Specifically, how the movie recommendations change when user adds new ratings.
+
+Movies recommendations changes if the similar users have changes. 
+When it adds new ratings, it might change the result of similar user, therefore, changing what 
+movies would be printed out. 
